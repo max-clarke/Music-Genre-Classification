@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e06508-bebe-4f1f-ab90-452171332af8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/fma_exploratory-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/fma_exploratory-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fma" beforeDir="false" afterPath="$PROJECT_DIR$/fma" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fma/usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fma/usage.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fma_exploratory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fma_exploratory.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/librosa_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/librosa_exploration.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fma/features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+            <state relative-caret-position="676">
+              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/feature/spectral.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2146">
+              <caret line="1319" column="29" selection-start-line="1319" selection-start-column="25" selection-end-line="1319" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -45,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2929">
+            <state relative-caret-position="377">
               <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
@@ -54,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws_prep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="986">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="63" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -66,7 +73,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fma" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,11 +179,12 @@
       <workItem from="1549040997790" duration="591000" />
       <workItem from="1549171008207" duration="2790000" />
       <workItem from="1549217779200" duration="6991000" />
+      <workItem from="1549261266558" duration="1182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17029000" />
+    <option name="totallyTimeSpent" value="18211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,7 +199,7 @@
     <frame x="0" y="35" width="2160" height="1303" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21911196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21911196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,9 +233,16 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
     <entry file="file://$PROJECT_DIR$/atop_exploratory.ipynb" />
     <entry file="file://$PROJECT_DIR$/MSongsDB-master/PythonSrc/MBrainzDB/README.txt" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aws_prep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="986">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -235,17 +250,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py">
+    <entry file="file://$PROJECT_DIR$/fma/features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2929">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="676">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fma/features.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/feature/spectral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+        <state relative-caret-position="-2146">
+          <caret line="1319" column="29" selection-start-line="1319" selection-start-column="25" selection-end-line="1319" selection-end-column="29" />
         </state>
       </provider>
     </entry>
