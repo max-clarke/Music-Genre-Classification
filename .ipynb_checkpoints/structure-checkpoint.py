@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-PATH = r'/home/max/Documents/data/fma_metadata'
+PATH = r'/Users/maxwellclarke/Documents/data/fma_metadata/'
 os.chdir(PATH)
 
 
