@@ -1,10 +1,6 @@
 import os
 import pandas as pd
 
-PATH = r'/Users/maxwellclarke/Documents/data/fma_metadata/'
-os.chdir(PATH)
-
-
 class Data:
 
     def __init__(self, nrows=None):
@@ -70,9 +66,21 @@ class Data:
 
 
 def main():
+    
+    try:
+        PATH = r'/Users/maxwellclarke/Documents/data/fma_metadata/'
+        os.chdir(PATH)
+    except:
+        PATH = r'C:\Users\james\Documents\data\fma_metadata'
+        os.chdir(PATH)
+        
     data = Data(nrows=None)
     data.clean()
     data.segment()
+    
+    os.mkdir('segmented_csvs')
+    os.chdir('segmented_csvs')
+    
     data.segment2csv()
 
 

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e06508-bebe-4f1f-ab90-452171332af8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fma" beforeDir="false" afterPath="$PROJECT_DIR$/fma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fma/usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fma/usage.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librosa_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/librosa_exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/structure-checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/structure-checkpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fma_exploratory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fma_exploratory.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/structure.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,47 +32,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fma/features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/feature/spectral.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2146">
-              <caret line="1319" column="29" selection-start-line="1319" selection-start-column="25" selection-end-line="1319" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws_prep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="63" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,10 +47,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="34" />
     <option name="width" value="1080" />
-    <option name="height" value="1303" />
+    <option name="height" value="1304" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,6 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,16 +66,10 @@
               <item name="project_mcnulty" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mcnulty" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project_mcnulty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_mcnulty" type="462c0819:PsiDirectoryNode" />
-              <item name="fma" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,11 +137,12 @@
       <workItem from="1549171008207" duration="2790000" />
       <workItem from="1549217779200" duration="6991000" />
       <workItem from="1549261266558" duration="1182000" />
+      <workItem from="1549417008972" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18211000" />
+    <option name="totallyTimeSpent" value="19763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,10 +154,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="35" width="2160" height="1303" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21911196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,8 +170,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32786885" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4186718" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3268206" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.41740674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -233,36 +190,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
     <entry file="file://$PROJECT_DIR$/atop_exploratory.ipynb" />
     <entry file="file://$PROJECT_DIR$/MSongsDB-master/PythonSrc/MBrainzDB/README.txt" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws_prep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fma/features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/feature/spectral.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2146">
-          <caret line="1319" column="29" selection-start-line="1319" selection-start-column="25" selection-end-line="1319" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/core/spectrum.py" />
+    <entry file="file://$PROJECT_DIR$/aws_prep.py" />
+    <entry file="file://$PROJECT_DIR$/fma/features.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/librosa/feature/spectral.py" />
   </component>
 </project>
