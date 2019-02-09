@@ -1,2 +1,2 @@
-# project_mcnulty
+# Music Genre Classification
 Metis Project 3
