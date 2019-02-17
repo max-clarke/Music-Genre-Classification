@@ -1,0 +1,23 @@
+Hello, I'm Maxwell Clarke. Today I will be presenting my genre predicting web app and describing how I made it.
+
+<change slide>
+
+The goal is to take a track and determine which of 5 genres it belongs to: Rock, Electronic, Folk, Hip-Hop, or Classical.
+
+<change slide>
+
+Before I analyzed any tracks, I needed to get some data to train my model on. 
+
+<change slide>
+
+I acquired my training data from a database taken from the Free Music Archive. The Free Music Archive is a website where any musician can upload their works under a creative commons license. This database is a resource for researches to practice machine learning with while avoiding the risk of running afoul of intellecutal property rights.
+
+The dataset includes already extracted features from 106,000 tracks.
+
+<change slide>
+
+The features are extracted from a python package called LibROSA, used for audio and signal analysis. There's over 500 features that can be extracted, but they fall within these categories. We would get lost in the weeds if I described all the features, so I want to just take two specific categories now.
+
+<change slide>
+
+This colorful image is an example of a spectrogram. The x axis represents time and the y axis represents pitch. Basically, the further to the right is later in the song and higher up on the graph are higher notes. The colors represent how much of each pitch is present in the 

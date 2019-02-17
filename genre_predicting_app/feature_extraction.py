@@ -26,6 +26,7 @@ def columns():
     return columns.sort_values()
 
 def compute_features(filepath):
+    
     tid = 'predictee'
     features = pd.Series(index=columns(), dtype=np.float32, name=tid)
 
@@ -42,6 +43,7 @@ def compute_features(filepath):
         features[name, 'max'] = np.max(values, axis=1)
 
     try:
+        print(filepath)
         x, sr = librosa.load(filepath, sr=None, mono=True)  # kaiser_fast
 
         f = librosa.feature.zero_crossing_rate(x, frame_length=2048, hop_length=512)
