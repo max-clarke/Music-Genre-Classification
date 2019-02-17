@@ -60,11 +60,6 @@ class Data:
         }
 
 
-    def segment2csv(self):
-        # make new folder and save each segemented dataframe as csv for loading to AWS
-        pass
-
-
 def main():
     
     try:
